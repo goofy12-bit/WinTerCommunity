@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход по премиум подписке</title>
+</head>
+<body>
+    
+    
+    <main>
+        <center>
+        <h1>Вход по премиум подписке</h1>
+       
+       
+       <input type="name" placeholder="Введите имя">
+       <p></p>
+       <input type="name" placeholder="Введите логин">
+       <p></p>
+       <input type="password" placeholder="Введите пароль">
+       <p></p>
+<select name="city" id="city-select" style="color:grey;">
+ <option value="">-- Выберите страну --</option>
+ <option value="Russia">Россия</option>
+ <option value="Ukraine">Украина</option> 
+ <option value="Belaruss">Беларусь</option>  
+       </select>
+       
+        <p></p>
+        <input type="password" placeholder="Введите код">
+        <p></p>
+       <input type="phone" placeholder="Номер телефона">
+       <p></p>
+        <input type="checkbox" checked disabled><b>Соглашаюсь с</b> <a href="policy.html"><b><font color="white">условиями пользования</font></b></a>
+                <p></p>
+            <button onclick="alert('Неверные данные');"><b>продолжить</b></button>
+        </center>
+        <p></p>
+<button onclick="window.location.href = 'index.html';">назад</button>    
+    
+    
+    </main>
+    
+    
+</body>
+</html>
+
+
+<style>
+    body {
+    background-color:#131415;
+    zoom:250%;
+    color:white;
+    font-family: Arial, sans-serif
+}
+    
+    main {
+    background-color:#1d1f21;
+    border-radius:10px;
+
+}
+
+button{
+    font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 5px;
+  background: rgb(83,107,232);
+  box-shadow: 0 -3px rgb(83,107,232) inset;
+  transition: 0.2s;
+} 
+
+input{
+    color:white;
+}
+
+
+button:hover { background: rgb(83,107,232); }
+button:active {
+  background: rgb(83,107,232);
+  box-shadow: 0 3px rgb(83,107,232) inset;
+
+
+
+</style>
